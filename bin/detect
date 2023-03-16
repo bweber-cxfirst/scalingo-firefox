@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+BUILD_DIR=${1:-}
+
+echo "My Wonderful Technology" && exit 0

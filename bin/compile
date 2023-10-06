@@ -5,4 +5,7 @@ CACHE_DIR=${2:-}
 ENV_DIR=${3:-}
 
 echo "-----> Install gcc"
+echo "val=${BUILD_DIR} | ${CACHE_DIR} | ${ENV_DIR}"
+
+cd $BUILD_DIR
 bundle exec rake 'portail:build_assets' 
